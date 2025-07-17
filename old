@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>Ubuntu Man | powered by spitkov.</title>
+        <meta name="generator" content="Ubuntu Man">
+        <meta property="og:title" content="ubuntu man website">
+        <meta property="og:description" content="ubuntu man website hosting on spitkov's server :fire:">
+        <meta property="og:image" content="https://ubuntum4n.3xx.pw/meta_img2.png">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <style>
+      body {
+                background-image: url('ubuntuman_bg.jpg');
+                background-size: cover; /* This ensures the image covers the entire background */
+                background-position: center;
+                display: grid;
+                place-items: center;
+                min-height: 100vh;
+                font-family: Montserrat; font-size: 18px
+            }
+ .container {
+  max-width: 700px;
+  margin: 89px auto;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.65);
+backdrop-filter: blur(5px);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.left-button {
+            display: inline-block;
+            margin-left: 0;
+            background-color: #e04710;
+            color: black;
+            border: 2px solid black;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px; /* Optional: for rounded corners */
+            text-align: center; /* Ensure text is centered within the button */
+            text-decoration: none; /* Remove underline from link */
+            transition: background-color 0.3s, opacity 0.3s;
+            opacity: 0.8; /* Set initial opacity to 80% */
+        }
+        .left-button:hover {
+            background-color: #be10e0; /* Optional: Change background on hover */
+            opacity: 1; /* Increase opacity to 100% on hover */
+        }
+        .fade-out {
+            opacity: 0;
+        }
+    </style>
+    <script>
+        function redirectWithFade(event) {
+            event.preventDefault();
+            const button = event.currentTarget;
+            button.classList.add('fade-out');
+            setTimeout(() => {
+                window.location.href = button.getAttribute('href');
+            }, 300); // Match the transition duration
+        }
+    </script>
+
+    </head>
+    <body>
+        <marquee direction="right" behavior="alternate" style="background:black;border:white 3px SOLID;color:white;">
+ubuntu man website running on spitkov's server :fire: :fire:
+        </marquee>
+<div class="container">
+        <div id="logo">
+            <img src="logo_um.png" width="200" height="200">
+        </div>
+<audio autoplay>
+        <source src="uman_startup.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+        <main>
+            <section class="sidebar">
+                <h2>Links</h2>
+                <p>
+                    <a href="https://ubuntum4n.3xx.pw/filehosting" class="left-button">File-host</a>
+                    <a href="https://ubuntum4n.3xx.pw/mysocials" class="left-button">My socials</a>
+                    <a href="https://ubuntum4n.3xx.pw/changelogs" class="left-button">Changelogs</a><br />
+<p>More links are going to be in the future.</p>
+             
+                <h2>About Me</h2>
+                <p>Dickhead since 2019, average cs2 and csgo player (def bored of shell shockers), not depressed anymore (starting to get a bit more progressive on my mental health) - hetero (straight) and a catholic christian</p>
+                <h2>What I'm Doing</h2>
+                <p>Practicing shots everytime on CS2 to beat fake s1mples and steles</p>
+            </section>
+
+            <section class="content">
+                <h2>Introduction</h2>
+                <p>Hey, i'm Ubuntu Man. I can code in Python (i have 0% skill on html lmao). My Discord Status is right down below.</p>
+                <img src="https://lanyard.cnrad.dev/api/1124393730074497135" alt="Discord Status">
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; Ubuntu Man  | All rights reserved. (special thanks to <a href="http://cgcristi.xyz/">CGCristi (Avery)</a> and <a href="https://spitkov.hu/">spitkov (K Bence)</a> for help)</p>
+        </footer>
+<script data-goatcounter="https://ubuntuman.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+    </body>
+</html>
